@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
     return (
-        <div className='hero'>
+        <div className='hero mt-4 py-4'>
             <div className="card bg-dark text-white border-0">
                 <img src="/assets/bg.jpg" className="card-img" alt="Backgrond" height="700px" />
                     <div className="card-img-overlay d-flex flex-column">

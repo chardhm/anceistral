@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export const Navbar = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
+            <nav className="navbar navbar-expand-lg navbar-light bg-white py-2 shadow-sm fixed-top" >
                 <div className="container">
                   <img src="https://img.icons8.com/external-justicon-flat-justicon/64/000000/external-olive-oil-healthy-food-and-vegan-justicon-flat-justicon.png" width="26" alt="" />
                     <Link className="navbar-brand fw-bold fs-4" to="/">Aceistral</Link>
@@ -27,14 +27,6 @@ export const Navbar = () => {
                             </li>
                         </ul>
                         <div className="buttons">
-                            <Link to="/login" className="btn btn-outline-dark">
-                                <i className='fa fa-sign-in me-1'></i>
-                                Login
-                            </Link>
-                            <Link to="/register" className="btn btn-outline-dark ms-2">
-                                <i className='fa fa-user-plus me-1'></i>
-                                Register
-                            </Link>
                             <Link to="/cart" className="btn btn-outline-dark ms-2">
                                 <i className='fa fa-shopping-cart me-1'></i>
                                 Cart (0)
